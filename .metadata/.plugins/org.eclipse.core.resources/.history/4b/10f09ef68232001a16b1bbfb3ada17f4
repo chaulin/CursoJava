@@ -1,0 +1,21 @@
+package application;
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitites.EmployeeLista;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+		
+		List<EmployeeLista> list = new ArrayList<EmployeeLista>();
+		
+
+
+	}
+
+}

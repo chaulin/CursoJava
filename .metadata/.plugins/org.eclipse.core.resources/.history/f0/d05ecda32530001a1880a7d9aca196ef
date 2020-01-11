@@ -1,0 +1,27 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class array {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
+
+		int n = input.nextInt();
+		double[] myvect = new double[n];
+		for (int i = 0; i < n; i++) {
+			myvect[i] = input.nextDouble();
+		}
+
+		double sum = 0.0;
+		for (int i = 0; i < n; i++) {
+			sum += myvect[i];
+		};
+		double media = sum / n;
+		System.out.println("Media de vect: " + media);
+
+		input.close();
+
+	}
+
+}

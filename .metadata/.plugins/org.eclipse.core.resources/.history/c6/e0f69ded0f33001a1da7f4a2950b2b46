@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Matriz {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Informe em numero o tamanho da matriz");
+		int n = input.nextInt();
+		int [][] mat = new int[n][n];
+		
+
+	}
+
+}
